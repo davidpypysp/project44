@@ -1,0 +1,1 @@
+add_executable(lc1656 lc1656.cc)

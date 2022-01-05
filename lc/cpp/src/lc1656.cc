@@ -1,7 +1,4 @@
-#include <string>
-#include <vector>
-
-using namespace std;
+#include "src/base.h"
 
 class OrderedStream
 {
@@ -34,6 +31,7 @@ int main()
 {
 	OrderedStream *obj = new OrderedStream(2);
 	vector<string> param_1 = obj->insert(3, "aaaaa");
+	std::cout << "first program" << std::endl;
 }
 
 /**
