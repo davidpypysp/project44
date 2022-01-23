@@ -3,7 +3,7 @@
         {
             "type": "cppbuild",
             "label": "cpp_build_debug",
-            "command": "make -j4",
+            "command": "/usr/bin/make -j4",
             "args": [],
             "options": {
                 "cwd": "${workspaceFolder}/lc/cpp/build/",
