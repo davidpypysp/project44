@@ -1,6 +1,8 @@
 project(kuro3d)
 cmake_minimum_required(VERSION 2.8)
 
+SET(CMAKE_BUILD_TYPE Debug)
+
 # Add header path
 include_directories(${CMAKE_SOURCE_DIR})
 
