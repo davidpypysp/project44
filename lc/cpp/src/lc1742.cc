@@ -27,4 +27,11 @@ public:
   }
 };
 
-int main() {}
+int main() {
+  vector<int> arr({1, 2, 3});
+  auto it0 = arr.begin();
+  std::cout << "it begin: " << *it0 << std::endl;
+  auto it = arr.end();
+  std::cout << "it end: " << *std::next(it) << std::endl;
+  std::cout << "v3" << arr[2] << std::endl;
+}
